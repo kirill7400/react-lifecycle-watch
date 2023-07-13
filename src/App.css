@@ -1,0 +1,57 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch {
+  width: 700px;
+  height: 500px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.controls {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputControl {
+  margin-right: 5px;
+}
+
+.selectControl {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btnControl {
+  margin-left: 5px;
+}
+
+.watches {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timer {
+  display: flex;
+  margin-right: 10px;
+}
+
+.delBtn {
+  cursor: pointer;
+}
+
+.timerMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.timerMain-name {
+  text-align: center;
+}
